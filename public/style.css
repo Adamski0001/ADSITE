@@ -1,0 +1,23 @@
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  text-align: center;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+.logo {
+  width: 200px;
+  margin: 20px auto;
+}
+
+h1 {
+  color: #ff4500;
+}
+
+.upload-container {
+  background-color: #fdfd96;
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px dashed #ff4500;
+  border-radius: 10px;
+}

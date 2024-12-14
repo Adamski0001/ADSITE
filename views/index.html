@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adams Molntjänst</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <!-- Logo -->
+  <div class="logo-container">
+    <img src="/ADSITE-LOGO.png" alt="Adams Logo" class="logo">
+  </div>
+
+  <!-- Header -->
+  <h1>Välkommen till Adams enkla molntjänst!</h1>
+  <p>Här kan du ladda upp filer som alla som har lösenordet kommer åt.</p>
+
+  <!-- File Upload Section -->
+  <div class="upload-container">
+    <h2>Ladda upp dina filer här!</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <input type="file" name="file" class="file-input">
+      <button type="submit" class="upload-button">Ladda upp</button>
+    </form>
+  </div>
+
+  <!-- File List Section -->
+  <div class="files-container">
+    <h2>Uppladdade filer</h2>
+    <ul id="file-list">
+      <!-- Files and delete buttons will be dynamically added here -->
+    </ul>
+  </div>
+
+  <!-- Random Quote Section -->
+  <div class="quote-container">
+    <h2>Lite rolig poesi</h2>
+    <p id="random-quote">"Batch files are the modern-day whoopee cushions!"</p>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="/script.js"></script>
+</body>
+</html>
